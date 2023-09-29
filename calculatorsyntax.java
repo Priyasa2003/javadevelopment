@@ -91,6 +91,7 @@ class calculatorsyntax {
         int n = sc.nextInt();
         if (n == 0) {
             System.out.println("ERROR");
+            System.exit(0);
         }
         double total = 0;
         calculator a1 = new calculator(n, total);
